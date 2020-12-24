@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: #253241;
+  color: white;
+  font-family: "Homestead-Inline";
+}
+body .wrapper {
+  width: 100%;
+  max-width: 800px;
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body #roll {
+  display: inline-block;
+  color: white;
+  background-color: #1f2b37;
+  text-decoration: none;
+  font-size: 2.5rem;
+  border: 5px solid white;
+  padding: 0.45em 2em;
+  border-radius: 3em;
+  transition: 400ms ease-in-out;
+}
+body #roll:hover {
+  background-color: white;
+  color: #253241;
+  font-family: "Homestead";
+}
+body #names {
+  font-size: 2.5rem;
+}
+body #winner {
+  font-size: 4rem;
+}
+body #winner span {
+  font-size: 0.35em;
+  letter-spacing: 4px;
+  font-family: "Homestead";
+}
+img{
+  height: 500px;
+  width: 500px;
+}
